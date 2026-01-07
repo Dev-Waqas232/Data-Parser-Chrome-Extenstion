@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "Data Parser",
+  "version": "1.0.0",
+  "description": "A basic extension to parse available data from the page",
+  "icons": {
+    "16": "images/icon16.png",
+    "32": "images/icon32.png",
+    "48": "images/icon48.png",
+    "128": "images/icon128.png"
+  },
+  "action": {
+    "default_title": "Parse Page Data",
+    "default_popup": "index.html"
+  },
+
+  "permissions": ["activeTab", "tabs", "scripting"]
+}
